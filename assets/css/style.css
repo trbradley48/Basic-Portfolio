@@ -17,7 +17,7 @@
     color: black;
     text-align: left;
     align-items: right;
-    padding: 18px 16px;
+    padding: 22px 16px;
     text-decoration: none;
     font-size: 17px;
     font-family: georgia;
@@ -48,7 +48,7 @@
     text-decoration: none;
     font-family: georgia;
     background-color: #4aaaa5;
-    margin: 0px;
+    margin: 0px 0px 0px 150px;
 
     /*float: left;
     background-color: #4aaaa5;
