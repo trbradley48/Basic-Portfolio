@@ -1,6 +1,8 @@
 
 .headerMargins {
-
+    background-color: white;
+    border: 5px;
+    border-color: #777777;
 }
 
 
@@ -27,8 +29,8 @@
 
 /* Change the color of the links on hover */
 .topnav a:hover {
-    background-color: blue;
-    color: black;
+    background-color: #4aaaa5;
+    color: white;
 }
 
 /* Add a color to the active/current link */
@@ -39,7 +41,6 @@
 
 
 .name {
-
     float: left;
     color: white;
     text-align: left;
@@ -49,21 +50,6 @@
     font-family: georgia;
     background-color: #4aaaa5;
     margin: 0px 0px 0px 150px;
-
-    /*float: left;
-    background-color: #4aaaa5;
-    color: white;
-    overflow: hidden;
-    text-align: right;
-    align-items: right;
-    padding: 13px 16px;
-    text-decoration: none;
-    display: inline;
-    font-family: georgia;
-    color: white;
-    margin: 0;*/
-
-
 }
 
 body {
@@ -95,7 +81,6 @@ body {
     font-size: 10px;
     padding-top: 20px;
     padding-bottom: 1px;
-
 }
 
 .footerGreenBar {
