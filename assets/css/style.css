@@ -1,0 +1,120 @@
+
+.headerMargins {
+
+}
+
+
+
+/* Add a white background color to the top navigation */
+.topnav {
+    background-color: white;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    color: black;
+    text-align: left;
+    align-items: right;
+    padding: 18px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: georgia;
+    color: #777777;
+    margin: 0px;
+}
+
+/* Change the color of the links on hover */
+.topnav a:hover {
+    background-color: blue;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+/* .topnav a.links {
+    background-color: #4CAF50;
+    color: white;
+} */
+
+
+.name {
+
+    float: left;
+    color: white;
+    text-align: left;
+    align-items: right;
+    padding: 18px 16px;
+    text-decoration: none;
+    font-family: georgia;
+    background-color: #4aaaa5;
+    margin: 0px;
+
+    /*float: left;
+    background-color: #4aaaa5;
+    color: white;
+    overflow: hidden;
+    text-align: right;
+    align-items: right;
+    padding: 13px 16px;
+    text-decoration: none;
+    display: inline;
+    font-family: georgia;
+    color: white;
+    margin: 0;*/
+
+
+}
+
+body {
+    background-image: url("../images/subtle_grunge.png")
+}
+
+.bodyMargins {
+    margin: 50px 150px 150px 150px;
+    padding: 10px 20px 10px 20px;
+    background-color: white;
+    border: 20px black;
+}
+
+.aboutH2 {
+    color: #4aaaa5;
+    font-family: georgia;
+}
+
+
+.footerMargins {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    color: #f2f2f2;
+    text-align: center;
+    font-family: arial;
+    font-size: 10px;
+    padding-top: 20px;
+    padding-bottom: 1px;
+
+}
+
+.footerGreenBar {
+    position: fixed;
+    left: 0;
+    bottom: 45px;
+    width: 100%;
+    background-color: #4aaaa5;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    border: 0px;
+}
+
+.meImg {
+    float: left;
+    margin: 0px 20px 20px 0px;
+}
+
+.wrappedP {
+    text-align: justify;
+}
