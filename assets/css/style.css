@@ -5,11 +5,13 @@
     margin: auto;
     margin-bottom: 35px;
     width: 100%;
+    height: 63px;
 }
 
 .headerNav {
     margin: auto;
     width: 960px;
+    height: 63px;
     padding-right: 0px;
 }
 
@@ -19,21 +21,21 @@
     overflow: hidden;
     color: #777777;
     padding-right: 0px;
+    float: right;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-    /* display: inline-block;  */
-    float: right;
+    display: inline-block;
     color: black;
     text-align: left;
-    align-items: right;
     padding: 22px 16px;
     text-decoration: none;
     font-size: 17px;
     font-family: georgia;
     color: #777777;
     margin: 0px;
+    height: 19px;
 }
 
 /* Change the color of the links on hover */
@@ -67,12 +69,12 @@ body {
 }
 
 .bodyMargins {
-    /* margin: 50px 150px 150px 150px; */
     margin: auto;
     padding: 10px 20px 10px 20px;
     background-color: white;
     border: 1px solid #dddddd;
     width: 920px;
+    margin-bottom: 150px;
 }
 
 .sectionH2 {
@@ -87,7 +89,7 @@ body {
 }
 
 .box {
-    float: left;
+    
 }
 
 .clearfix::after {
