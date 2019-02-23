@@ -82,22 +82,16 @@ body {
     font-family: georgia;
 }
 
+/* Big box encapsulating portfolio pictures/links */
 .bigBox {
     background-color: blue;
     position: relative;
 
 }
 
-.box {
+.boxPortfolioPic {
     
 }
-
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
 
 
 .footerMargins {
