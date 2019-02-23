@@ -3,6 +3,7 @@
     background-color: white;
     border-bottom: 2px solid #cccccc;
     margin: auto;
+    margin-bottom: 35px;
     width: 100%;
 }
 
@@ -74,10 +75,27 @@ body {
     width: 920px;
 }
 
-.aboutH2 {
+.sectionH2 {
     color: #4aaaa5;
     font-family: georgia;
 }
+
+.bigBox {
+    background-color: blue;
+    position: relative;
+
+}
+
+.box {
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 
 
 .footerMargins {
