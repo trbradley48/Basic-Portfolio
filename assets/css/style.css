@@ -1,20 +1,28 @@
 
 .headerMargins {
     background-color: white;
-    border: 5px;
-    border-color: #777777;
+    border-bottom: 2px solid #cccccc;
+    margin: auto;
+    width: 100%;
 }
 
-
+.headerNav {
+    margin: auto;
+    width: 960px;
+    padding-right: 0px;
+}
 
 /* Add a white background color to the top navigation */
 .topnav {
     background-color: white;
     overflow: hidden;
+    color: #777777;
+    padding-right: 0px;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
+    /* display: inline-block;  */
     float: right;
     color: black;
     text-align: left;
@@ -43,24 +51,27 @@
 .name {
     float: left;
     color: white;
-    text-align: left;
-    align-items: right;
+    /* text-align: left;
+    align-items: right; */
     padding: 18px 16px;
     text-decoration: none;
     font-family: georgia;
     background-color: #4aaaa5;
-    margin: 0px 0px 0px 150px;
+    margin: 0px;
 }
 
 body {
-    background-image: url("../images/subtle_grunge.png")
+    background-image: url("../images/subtle_grunge.png");
+    margin: 0px;
 }
 
 .bodyMargins {
-    margin: 50px 150px 150px 150px;
+    /* margin: 50px 150px 150px 150px; */
+    margin: auto;
     padding: 10px 20px 10px 20px;
     background-color: white;
-    border: 20px black;
+    border: 1px solid #dddddd;
+    width: 920px;
 }
 
 .aboutH2 {
@@ -79,20 +90,9 @@ body {
     text-align: center;
     font-family: arial;
     font-size: 10px;
-    padding-top: 20px;
+    padding-top: 15px;
     padding-bottom: 1px;
-}
-
-.footerGreenBar {
-    position: fixed;
-    left: 0;
-    bottom: 45px;
-    width: 100%;
-    background-color: #4aaaa5;
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 2px;
-    border: 0px;
+    border-top: 8px solid #4aaaa5;
 }
 
 .meImg {
