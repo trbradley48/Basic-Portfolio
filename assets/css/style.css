@@ -1,4 +1,7 @@
 
+/* CSS for Header/Body/Footer */
+
+/* White bar at the top across the whole screen */
 .headerMargins {
     background-color: white;
     border-bottom: 2px solid #cccccc;
@@ -8,6 +11,7 @@
     height: 63px;
 }
 
+/* Box encapsulating 'name' and 'topnav' */
 .headerNav {
     margin: auto;
     width: 960px;
@@ -15,7 +19,7 @@
     padding-right: 0px;
 }
 
-/* Add a white background color to the top navigation */
+/* Box encapsulating 3 nav links */
 .topnav {
     background-color: white;
     overflow: hidden;
@@ -50,12 +54,10 @@
     color: white;
 } */
 
-
+/* Box encapsulating name */
 .name {
     float: left;
     color: white;
-    /* text-align: left;
-    align-items: right; */
     padding: 18px 16px;
     text-decoration: none;
     font-family: georgia;
@@ -82,18 +84,6 @@ body {
     font-family: georgia;
 }
 
-/* Big box encapsulating portfolio pictures/links */
-.bigBox {
-    background-color: blue;
-    position: relative;
-
-}
-
-.boxPortfolioPic {
-    
-}
-
-
 .footerMargins {
     position: fixed;
     left: 0;
@@ -109,6 +99,10 @@ body {
     border-top: 8px solid #4aaaa5;
 }
 
+/*  ============================================== */
+
+/* CSS for About Me body */
+
 .meImg {
     float: left;
     margin: 0px 20px 20px 0px;
@@ -116,4 +110,86 @@ body {
 
 .wrappedP {
     text-align: justify;
+}
+
+
+/*  ============================================== */
+
+/* CSS for Portfolio body */
+
+/* Big box encapsulating portfolio pictures */
+.bigBox {
+    position: relative;
+    height: 700px;
+    margin-top: 25px;
+}
+
+.picBox {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+}
+
+.picLabels {
+    height: 50px;
+    width: 200px;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 20px;
+    line-height: 50px;
+    margin-top: 135px;
+    position: relative;
+    text-align: center;
+    padding: auto;
+}
+
+.row1 {
+    
+    
+}
+
+.row2 {
+    top: 240px;
+
+}
+
+.row3 {
+    top: 480px;
+
+}
+
+.col1 {
+
+}
+
+.col2 {
+    left: 235px;
+
+}
+
+/* IDs for the background pictures of each portfolio item */
+#Hangman {
+    background-image: url("../images/PortfolioPic1.jpg");
+}
+
+#RPG {
+    background-image: url("../images/PortfolioPic2.jpg");
+}
+
+#Trivia {
+    background-image: url("../images/PortfolioPic3.jpg");
+}
+
+#Rutgers {
+    background-image: url("../images/PorftolioPic4.jpg");
+}
+
+#Rock {
+    background-image: url("../images/PortfolioPic5.jpg");
+}
+
+/* CSS for Contact body */
+
+.labels {
+    
 }
