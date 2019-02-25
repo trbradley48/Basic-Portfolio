@@ -191,5 +191,25 @@ body {
 /* CSS for Contact body */
 
 .labels {
-    
+    margin-bottom: 5px;
+    font-family: arial;
+    color: #777777;
+}
+
+.messageInput {
+    height: 150px;
+    width: 920px;
+}
+
+.submitButton {
+    margin-top: 15px;
+    background-color: #4aaaa5;
+    border: 0px;
+    color: white;
+    padding: 8px 20px;
+}
+
+.exampleText {
+    color: #777777;
+    width: 920px;
 }
