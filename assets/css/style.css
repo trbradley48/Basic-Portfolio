@@ -3,7 +3,7 @@
 
 /* White bar at the top across the whole screen */
 .headerMargins {
-    background-color: white;
+    background-color: #ffffff;
     border-bottom: 2px solid #cccccc;
     margin: auto;
     margin-bottom: 35px;
@@ -21,22 +21,21 @@
 
 /* Box encapsulating 3 nav links */
 .topnav {
-    background-color: white;
+    background-color: #ffffff;
     overflow: hidden;
     color: #777777;
     padding-right: 0px;
     float: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
     display: inline-block;
-    color: black;
     text-align: left;
     padding: 22px 16px;
     text-decoration: none;
     font-size: 17px;
-    font-family: georgia;
     color: #777777;
     margin: 0px;
     height: 19px;
@@ -45,22 +44,16 @@
 /* Change the color of the links on hover */
 .topnav a:hover {
     background-color: #4aaaa5;
-    color: white;
+    color: #ffffff;
 }
-
-/* Add a color to the active/current link */
-/* .topnav a.links {
-    background-color: #4CAF50;
-    color: white;
-} */
 
 /* Box encapsulating name */
 .name {
     float: left;
-    color: white;
+    color: #ffffff;
     padding: 18px 16px;
     text-decoration: none;
-    font-family: georgia;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #4aaaa5;
     margin: 0px;
 }
@@ -73,15 +66,15 @@ body {
 .bodyMargins {
     margin: auto;
     padding: 10px 20px 10px 20px;
-    background-color: white;
+    background-color: #ffffff;
     border: 1px solid #dddddd;
     width: 920px;
     margin-bottom: 150px;
 }
 
-.sectionH2 {
+.contentHeader {
     color: #4aaaa5;
-    font-family: georgia;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .footerMargins {
@@ -92,7 +85,7 @@ body {
     background-color: #666666;
     color: #f2f2f2;
     text-align: center;
-    font-family: arial;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 10px;
     padding-top: 15px;
     padding-bottom: 1px;
@@ -110,6 +103,8 @@ body {
 
 .wrappedP {
     text-align: justify;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
 }
 
 
@@ -134,18 +129,14 @@ body {
     height: 50px;
     width: 200px;
     background-color: #4aaaa5;
-    color: white;
+    color: #ffffff;
     font-size: 20px;
     line-height: 50px;
     margin-top: 135px;
     position: relative;
     text-align: center;
     padding: auto;
-}
-
-.row1 {
-    
-    
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 .row2 {
@@ -155,10 +146,6 @@ body {
 
 .row3 {
     top: 480px;
-
-}
-
-.col1 {
 
 }
 
@@ -192,7 +179,7 @@ body {
 
 .labels {
     margin-bottom: 5px;
-    font-family: arial;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
 }
 
@@ -205,7 +192,7 @@ body {
     margin-top: 15px;
     background-color: #4aaaa5;
     border: 0px;
-    color: white;
+    color: #ffffff;
     padding: 8px 20px;
 }
 
