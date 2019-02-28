@@ -58,11 +58,13 @@
     margin: 0px;
 }
 
+/* background image for entire body */
 body {
     background-image: url("../images/subtle_grunge.png");
     margin: 0px;
 }
 
+/* Parameters for main body content */
 .bodyMargins {
     margin: auto;
     padding: 10px 20px 10px 20px;
@@ -72,11 +74,13 @@ body {
     margin-bottom: 150px;
 }
 
+/* Parameters for Content Header */
 .contentHeader {
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+/* Parameters for footer */
 .footerMargins {
     position: fixed;
     left: 0;
@@ -96,11 +100,13 @@ body {
 
 /* CSS for About Me body */
 
+/* Parameters for image */
 .meImg {
     float: left;
     margin: 0px 20px 20px 0px;
 }
 
+/* Parameters for paragraphs */
 .wrappedP {
     text-align: justify;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -119,15 +125,16 @@ body {
     margin-top: 25px;
 }
 
+/* Box for picture */
 .picBox {
     position: absolute;
     height: 200px;
-    width: 200px;
+    width: 270px;
 }
 
 .picLabels {
     height: 50px;
-    width: 200px;
+    width: 270px;
     background-color: #4aaaa5;
     color: #ffffff;
     font-size: 20px;
@@ -139,18 +146,19 @@ body {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+/* Grid for portfolio */
 .row2 {
-    top: 240px;
+    top: 250px;
 
 }
 
 .row3 {
-    top: 480px;
+    top: 490px;
 
 }
 
 .col2 {
-    left: 235px;
+    left: 310px;
 
 }
 
@@ -175,19 +183,23 @@ body {
     background-image: url("../images/PortfolioPic5.jpg");
 }
 
+/* ============================================= */
 /* CSS for Contact body */
 
+/* Labels for fields */
 .labels {
     margin-bottom: 5px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
 }
 
+/* Parameters for message section input */
 .messageInput {
     height: 150px;
     width: 920px;
 }
 
+/* Parameters for submit button */
 .submitButton {
     margin-top: 15px;
     background-color: #4aaaa5;
@@ -196,7 +208,9 @@ body {
     padding: 8px 20px;
 }
 
+/* Example text in fields */
 .exampleText {
     color: #777777;
     width: 920px;
+    padding-left: 5px;
 }
